@@ -2,7 +2,9 @@
 <div class="my-5 mx-4">
   <div class="flex flex-row justify-between">
     <h1 class="text-gray-500 font-bold text-lg">Brewista</h1>
-    <svg class="h-8 w-8"></svg>
+     <svg class="h-8 w-8 text-grayed">
+      <use xlink:href="#user" />
+    </svg>
   </div>
   <h2 class="text-gray-300 mt-8">LATEST BREWS</h2>
   <div class="todos">
