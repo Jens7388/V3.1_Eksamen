@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul class="flex">
         <coffees-list-item></coffees-list-item>
     </ul>
 </template>
