@@ -1,5 +1,5 @@
 <template>
-    <li class="flex flex-row border border-gray px-3 py-5 my-3">
+    <li class="flex flex-row border border-gray px-3 py-5 my-3 max-w-lg">
     <svg class="h-14 w-14 text-black">
       <use xlink:href="#infusion"></use>
     </svg>
