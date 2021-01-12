@@ -6,9 +6,10 @@
       <use xlink:href="#user" />
     </svg>
   </div>
-  <h2 class="text-gray-300 mt-8">LATEST BREWS</h2>
-  <div class="todos">
-    <!--  <div
+  
+  <brews-list></brews-list>
+  <!--<div class="todos">
+      <div
       @dblclick="onDblClick(todo)"
       v-for="todo in allTodos"
       :key="todo.id"
@@ -17,8 +18,8 @@
     >
       {{ todo.title }}
       <i @click="deleteTodo(todo.id)" class="fas fa-trash-alt"></i>
-    </div>-->
-  </div>
+    </div>
+  </div>-->
   <navigation-button></navigation-button>
 </div>
   
@@ -27,11 +28,13 @@
 <script>
 import { mapGetters, mapActions } from "vuex";
 import NavigationButton from "../components/NavigationButton.vue";
+import BrewsList from "../components/BrewsList.vue"
 
 export default {
   name: "Home",
   components: {
     NavigationButton,
+    BrewsList
   },
   methods: {
     ...mapActions(["fetchTodos", "deleteTodo", "updateTodo"]),
