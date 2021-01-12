@@ -1,9 +1,13 @@
 import vuex from "vuex";
 
-import todos from "./modules/todos";
+// Import module
+import coffees from "./modules/coffees";
+import brews from "./modules/brews";
 
+// Create store
 export default new vuex.Store({
   modules: {
-    todos,
+    coffees,
+    brews
   },
 });

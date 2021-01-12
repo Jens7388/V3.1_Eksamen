@@ -19,7 +19,7 @@
 
 <script>
 import BrewsList from "../components/brews/BrewsList.vue";
-import BrewsListItem from "../components/BrewsListItem.vue";
+import BrewsListItem from "../components/brews/BrewsListItem.vue";
 export default {
   components: {
     BrewsList,

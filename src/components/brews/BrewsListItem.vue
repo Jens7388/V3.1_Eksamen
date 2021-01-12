@@ -1,5 +1,5 @@
 <template>
-    <li class="flex flex-row border border-gray px-3 py-5 my-3 max-w-lg">
+  <li class="flex flex-row border border-gray px-3 py-5 my-3 max-w-lg">
     <svg class="h-14 w-14 text-black">
       <use xlink:href="#infusion"></use>
     </svg>
@@ -25,7 +25,7 @@
           <svg class="h-3 w-3 text-grayer mr-1">
             <use xlink:href="#grind"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">Corse</p>
+          <p class="font-extralight text-xs text-grayer">Coarse</p>
         </li>
         <li class="flex flex-row mr-3">
           <svg class="h-3 w-3 text-grayer mr-1">
@@ -37,3 +37,16 @@
     </div>
   </li>
 </template>
+
+<script>
+export default {
+  props: {
+    icon: String,
+    title: String,
+    beanAmount: Number,
+    waterAmount: Number,
+    profile: String,
+    time: Number,
+  },
+};
+</script>
