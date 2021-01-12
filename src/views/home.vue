@@ -27,8 +27,8 @@
 
 <script>
 import { mapGetters, mapActions } from "vuex";
-import NavigationButton from "../components/NavigationButton.vue";
-import BrewsList from "../components/BrewsList.vue"
+import NavigationButton from "../components/other/NavigationButton.vue";
+import BrewsList from "../components/brews/BrewsList.vue"
 
 export default {
   name: "Home",
