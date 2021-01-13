@@ -46,13 +46,11 @@ export default {
   },
   computed: {
     ...mapGetters(["allBrewingMethods"]),
-    // Property for getting favorite brews
     favoriteBrewingMethods: function () {
       return this.allBrewingMethods.filter(
         (brewingMethod) => brewingMethod.isFavorite === true
       );
     },
-    // Property for getting not favorite brews
     brewingMethods: function () {
       return this.allBrewingMethods.filter(
         (brewingMethod) => brewingMethod.isFavorite === false

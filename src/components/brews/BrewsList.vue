@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex-column">
+  <ul>
     <brews-list-item
       v-for="brew in allBrews"
       :key="brew.id"
@@ -26,11 +26,6 @@ export default {
   },
   computed: {
     ...mapGetters(["allBrews"]),
-  },
-  provide: {
-    deleteBrew: function (id) {
-      this.deleteLatestBrew(id);
-    },
   },
   created() {
     this.fetchBrews();
