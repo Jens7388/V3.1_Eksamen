@@ -1,6 +1,6 @@
  <template>
   <li class="border border-gray px-8 pb-7 my-3 mx-4 max-w-lg">
-    <router-link :to="{ path: '/coffees/brews/' + this.id }">
+    <router-link :to="{ path: '/coffees/' + this.id + '/brews/' }">
       <header class="my-9">
         <h1 class="font-extrabold text-xl">{{ title }}</h1>
         <p class="text-sm text-gray-500 font-semibold">{{ location }}</p>
