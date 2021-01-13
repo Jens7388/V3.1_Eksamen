@@ -1,12 +1,16 @@
 <template>
   <li class="flex flex-row border border-gray px-3 py-5 my-3 max-w-lg">
+      <router-link
+      :to="{
+        path: '/coffees/' + this.coffeeId + '/brews/' + this.id + '/recipe/',
+      }"
+    >
     <svg class="h-14 w-14 text-black">
-      <use xlink:href="#infusion"></use>
+      <use :xlink:href="icon"></use>
     </svg>
     <div>
       <header>
         <h1 class="font-bold">{{title}}</h1>
-        <p class="font-extralight text-xs text-grayed">{{location}}</p>
       </header>
       <ul class="mt-1 flex flex-row">
         <li class="flex flex-row mr-3">
@@ -35,19 +39,22 @@
         </li>
       </ul>
     </div>
+      </router-link>
   </li>
 </template>
 
 <script>
 export default {
   props: {
+    id: Number,
     icon: String,
     title: String,
-    location: String,
     beanAmount: Number,
     waterAmount: Number,
     profile: String,
     time: Number,
+    isFavourite: Boolean,
+    coffeeId: Number
   },
 };
 </script>
