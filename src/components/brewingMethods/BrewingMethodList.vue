@@ -14,7 +14,7 @@
       :coffeeId="coffeeId"
     ></brewing-method>
   </ul>
-  <h2 class="text-gray-400">TRY A NEW RECIPE</h2>
+  <h2 class="text-gray-400 mt-20">TRY A NEW RECIPE</h2>
   <ul>
     <brewing-method
       v-for="brewingMethod in brewingMethods"

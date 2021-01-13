@@ -1,5 +1,5 @@
 <template>
-  <li class="flex flex-row border border-gray px-3 py-5 my-3 max-w-lg">
+  <li class="flex flex-row border border-gray px-3 py-5 my-5 max-w-lg">
       <router-link
       :to="{
         path: '/coffees/' + this.coffeeId + '/brews/' + this.id + '/recipe/',
@@ -35,7 +35,7 @@
           <svg class="h-3 w-3 text-grayer mr-1">
             <use xlink:href="#time"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">{{time}}</p>
+          <p class="font-extralight text-xs text-grayer">{{time}} min</p>
         </li>
       </ul>
     </div>

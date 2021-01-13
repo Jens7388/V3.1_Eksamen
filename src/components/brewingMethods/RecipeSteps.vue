@@ -5,7 +5,7 @@
   </li>
   <li class="my-3">
     <h3 class="text-gray-600 text-xs">STEP 2</h3>
-    <p class="text-gray-400text-xl">{{ stepTwo }}</p>
+    <p class="text-gray-400 text-xl">{{ stepTwo }}</p>
   </li>
   <li class="my-3">
     <h3 class="text-gray-600 text-xs">STEP 3</h3>

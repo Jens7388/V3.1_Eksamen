@@ -6,7 +6,7 @@
       <use xlink:href="#user" />
     </svg>
   </div>
-  
+  <h2 class="text-gray-300 font-bold mt-10">LATEST BREWS </h2>
   <brews-list></brews-list>
   <navigation-button></navigation-button>
 </div>

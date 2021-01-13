@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="flex-column">
     <brews-list-item
       v-for="brew in allBrews"
       :key="brew.id"

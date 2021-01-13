@@ -6,32 +6,32 @@
     <div>
       <header>
         <h1 class="font-bold">{{title}}</h1>
-        <p class="font-extralight text-xs text-grayed">{{location}}</p>
+        <p class="font-semibold text-xs text-gray-400">{{location}}</p>
       </header>
       <ul class="mt-1 flex flex-row">
         <li class="flex flex-row mr-3">
-          <svg class="h-3 w-3 text-grayer mr-1">
+          <svg class="h-3 w-3 text-gray-400 mr-1">
             <use xlink:href="#bean"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">{{beanAmount}}g</p>
+          <p class="font-extralight text-xs text-gray-400">{{beanAmount}}g</p>
         </li>
         <li class="flex flex-row mr-3">
-          <svg class="h-3 w-3 text-grayer mr-1">
+          <svg class="h-3 w-3 text-gray-400 mr-1">
             <use xlink:href="#water"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">{{waterAmount}}ml</p>
+          <p class="font-extralight text-xs text-gray-400">{{waterAmount}}ml</p>
         </li>
         <li class="flex flex-row mr-3">
-          <svg class="h-3 w-3 text-grayer mr-1">
+          <svg class="h-3 w-3 text-gray-400 mr-1">
             <use xlink:href="#grind"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">{{profile}}</p>
+          <p class="font-extralight text-xs text-gray-400">{{profile}}</p>
         </li>
         <li class="flex flex-row mr-3">
-          <svg class="h-3 w-3 text-grayer mr-1">
+          <svg class="h-3 w-3 text-gray-400 mr-1">
             <use xlink:href="#time"></use>
           </svg>
-          <p class="font-extralight text-xs text-grayer">{{time}}</p>
+          <p class="font-extralight text-xs text-gray-400">{{time}} min</p>
         </li>
       </ul>
     </div>
